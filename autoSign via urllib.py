@@ -39,18 +39,8 @@ class FishC(object):
 
 
 if __name__ == '__main__':
-    # hldh214
-    cook000 = 'oMVX_2132_saltkey=LM6Mj1Ah; oMVX_2132_lastvisit={0}; oMVX_2132_sendmail=1; Hm_lvt_8867f2e9bc13a08cafa6cffdfff2e6bd=1453887108; Hm_lpvt_8867f2e9bc13a08cafa6cffdfff2e6bd=1453887110; oMVX_2132_seccode=2563.26149e631842523243; oMVX_2132_lastact=1453887111%09member.php%09logging; oMVX_2132_ulastactivity=df80KIlm2har9UnNglm%2BW51sP6Wfyp3JTntbaLMlbaTa%2FivP8fQE; oMVX_2132_sid=vc6644; oMVX_2132_auth=4024idlCqTqKMirRaxQJeaUJRz5GTBoqD77%2BfxZ%2B4cFP4RK%2FzY3wTnVQI3diaSat0fTga6VS%2BE9NvGRThum99K0lQKo; oMVX_2132_lastcheckfeed=263749%7C1453887111; oMVX_2132_checkfollow=1; oMVX_2132_lip=49.210.242.19%2C1453886717; oMVX_2132_security_cookiereport=f9c2HKPBgfm4YhF2gpjuqzD4a1WaNXQEIF%2BpE3TeuywM2kSkHnM0'.format(
-            int(time.time()))
-    # fiddler04----fiddler214
-    cook001 = 'oMVX_2132_saltkey=BQ1dWrGn; oMVX_2132_lastvisit={0}; oMVX_2132_sendmail=1; oMVX_2132_seccode=499.72769a6bc3892a5311; oMVX_2132_ulastactivity=d232pV%2FJeTMlACdEOBU%2FCQi8BMEEXNS%2BnZAt1ulfNfKvvmRidm2u; oMVX_2132_auth=95f6c%2BOg2r7RFCtaANsi%2FDKG8KHdIZeQ1PEfL79b8NVnVBZiyo%2F8RaRFCDqvO8qC2o34ND%2FpV1gDVYiNNOujs%2FZy048; oMVX_2132_creditnotice=0D0D1D0D0D0D0D0D0D350912; oMVX_2132_creditbase=0D0D2D0D0D0D0D0D0; oMVX_2132_creditrule=%E6%AF%8F%E5%A4%A9%E7%99%BB%E5%BD%95; oMVX_2132_lastcheckfeed=350912%7C1453601554; oMVX_2132_checkfollow=1; oMVX_2132_lip=153.92.41.232%2C1453545165; oMVX_2132_security_cookiereport=8f36uQz0IgcBpivnmjqQnyUohHyPL%2Fd6PKIDQoFcQ1sg3NgPArLf; oMVX_2132_nofavfid=1; oMVX_2132_onlineusernum=371; oMVX_2132_sid=Q5cqJ6; Hm_lvt_8867f2e9bc13a08cafa6cffdfff2e6bd=1453601541; Hm_lpvt_8867f2e9bc13a08cafa6cffdfff2e6bd=1453601559; oMVX_2132_lastact=1453601559%09home.php%09spacecp; oMVX_2132_connect_is_bind=0; oMVX_2132_checkpm=1; oMVX_2132_noticeTitle=1'.format(
-            int(time.time()))
     # fiddler005----fiddler214
-    cook002 = 'oMVX_2132_saltkey=Rw4E8cWu; oMVX_2132_lastvisit={0}; oMVX_2132_sendmail=1; oMVX_2132_seccode=1617.1265259cad52d9e63f; oMVX_2132_ulastactivity=35d1moNb%2BCAjNMccUDnhnWowsfGzY1YwAG3wKrITFGqrLVhueh8M; oMVX_2132_auth=7db8o24R2KEADcc0beon3v9VmvOd6FUNoDzSkZixcP6gu%2BDn4vz7Gpxw70hnRsyW57zA1qxy%2B8PFVzSQorYjDv3R43k; oMVX_2132_security_cookiereport=4fe3VVK9mOZAczF8uzHsFLsLJR0QroYdjeS%2BoVcmT83jVW%2Bu9tzD; oMVX_2132_nofavfid=1; oMVX_2132_onlineusernum=773; oMVX_2132_sid=lo9vL8; Hm_lvt_8867f2e9bc13a08cafa6cffdfff2e6bd=1453876304,1453876422; Hm_lpvt_8867f2e9bc13a08cafa6cffdfff2e6bd=1453876511; oMVX_2132_checkpm=1; oMVX_2132_lastact=1453876501%09home.php%09spacecp; oMVX_2132_connect_is_bind=0; oMVX_2132_lastcheckfeed=351367%7C1453876501; oMVX_2132_checkfollow=1; oMVX_2132_noticeTitle=1'.format(
+    cookie = 'oMVX_2132_saltkey=Rw4E8cWu; oMVX_2132_lastvisit={0}; oMVX_2132_sendmail=1; oMVX_2132_seccode=1617.1265259cad52d9e63f; oMVX_2132_ulastactivity=35d1moNb%2BCAjNMccUDnhnWowsfGzY1YwAG3wKrITFGqrLVhueh8M; oMVX_2132_auth=7db8o24R2KEADcc0beon3v9VmvOd6FUNoDzSkZixcP6gu%2BDn4vz7Gpxw70hnRsyW57zA1qxy%2B8PFVzSQorYjDv3R43k; oMVX_2132_security_cookiereport=4fe3VVK9mOZAczF8uzHsFLsLJR0QroYdjeS%2BoVcmT83jVW%2Bu9tzD; oMVX_2132_nofavfid=1; oMVX_2132_onlineusernum=773; oMVX_2132_sid=lo9vL8; Hm_lvt_8867f2e9bc13a08cafa6cffdfff2e6bd=1453876304,1453876422; Hm_lpvt_8867f2e9bc13a08cafa6cffdfff2e6bd=1453876511; oMVX_2132_checkpm=1; oMVX_2132_lastact=1453876501%09home.php%09spacecp; oMVX_2132_connect_is_bind=0; oMVX_2132_lastcheckfeed=351367%7C1453876501; oMVX_2132_checkfollow=1; oMVX_2132_noticeTitle=1'.format(
             int(time.time()))
-    f1 = FishC(cook000)
-    # f2 = FishC(cook001)
-    # f3 = FishC(cook002)
-    f1.sign()
-    # f2.sign()
-    # f3.sign()
+    f = FishC(cookie)
+    f.sign()
